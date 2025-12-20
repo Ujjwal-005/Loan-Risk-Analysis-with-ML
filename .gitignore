@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+```
+
+---
+
+## **STEP 20: Final Instructions**
+
+### **Your folder structure should look like this:**
+```
+loaninsight-ai/
+├── .env                              # API keys
+├── .gitignore
+├── requirements.txt
+├── streamlit_app.py                  # Main app
+├── models/
+│   ├── loan_kmeans_model_pipeline.pkl
+│   ├── loan_xgb_model_pipeline.pkl
+│   └── shap_explainer.pkl
+├── pages/
+│   ├── __init__.py
+│   ├── cluster.py
+│   ├── eligibility.py
+│   └── learn_more.py
+└── utils/
+    ├── __init__.py
+    ├── constants.py
+    ├── validators.py
+    ├── models.py
+    ├── visualizations.py
+    ├── llm_handler.py
+    ├── prompts.py
+    └── agents.py
