@@ -93,7 +93,7 @@ st.markdown(
     'discover your customer segment, and check loan eligibility with AI-powered explanations.</div>',
     unsafe_allow_html=True
 )
-
+st.success("🚀 Welcome to LoanInsight AI - An end-to-end Machine Learning and Explainable AI project.")
 # Feature cards
 col1, col2, col3 = st.columns(3)
 
@@ -235,6 +235,6 @@ Always consult qualified financial professionals for actual lending decisions.
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #94a3b8; font-size: 0.9rem;'>
-    Built with ❤️ using Streamlit • Powered by Groq & Gemini AI • Educational Tool Only
+    Built by Ujjwal Singh • Streamlit • XGBoost • Groq AI • Gemini AI
 </div>
 """, unsafe_allow_html=True)
